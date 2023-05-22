@@ -2,6 +2,24 @@ galaxy_info:
   author: your name
   description: your role description
   company: your company (optional)
+  role_name: vector
+  namespace: vectorclove
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - bionic
+        - xenial
+    - name: Debian
+      versions:
+        - bullseye
+        - buster
+        - stretch
+        - jessie
+    - name: EL
+      versions:
+        - 7
+        - 8
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
